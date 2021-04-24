@@ -1,24 +1,18 @@
 package fr.kallium.kalauncher;
 
 import fr.litarvan.openauth.AuthenticationException;
-import fr.theshark34.swinger.Swinger;
-
-import javax.swing.*;
-import javax.swing.text.Highlighter;
-import java.awt.*;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-
 import fr.theshark34.openlauncherlib.util.Saver;
+import fr.theshark34.swinger.Swinger;
 import fr.theshark34.swinger.animation.Animator;
 import fr.theshark34.swinger.colored.SColoredBar;
 import fr.theshark34.swinger.event.SwingerEvent;
 import fr.theshark34.swinger.event.SwingerEventListener;
-import fr.theshark34.swinger.util.WindowMover;
 
-import static fr.kallium.kalauncher.KaFrame.*;
-import static java.awt.Font.*;
+import javax.swing.*;
+import java.awt.*;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 
 public class KaPanel extends JPanel implements SwingerEventListener {
 
