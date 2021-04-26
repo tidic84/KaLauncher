@@ -7,6 +7,7 @@ import fr.theshark34.swinger.animation.Animator;
 import fr.theshark34.swinger.colored.SColoredBar;
 import fr.theshark34.swinger.event.SwingerEvent;
 import fr.theshark34.swinger.event.SwingerEventListener;
+import fr.theshark34.swinger.util.WindowMover;
 
 import javax.swing.*;
 import java.awt.*;
@@ -93,6 +94,7 @@ public class KaPanel extends JPanel implements SwingerEventListener {
         infoLabel.setFont(usernameField.getFont().deriveFont(20F));
         infoLabel.setVisible(false);
         this.add(infoLabel);
+
     }
 
     public void onEvent(SwingerEvent e) {

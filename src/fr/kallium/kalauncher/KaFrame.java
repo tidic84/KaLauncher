@@ -14,6 +14,7 @@ public class KaFrame extends JFrame{
 
     private JLabel toolBar = new JLabel();
 
+    @SuppressWarnings("serial")
     public KaFrame() {
         this.setTitle("Kallium Launcher");
         this.setSize(1280, 720);
@@ -49,6 +50,6 @@ public class KaFrame extends JFrame{
     }
 
     public KaPanel getKaPanel() {
-        return this.kaPanel;
+        return kaPanel;
     }
 }
